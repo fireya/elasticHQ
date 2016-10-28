@@ -34,7 +34,7 @@ function RESTModelFactory() {
                     this.fetchURL = '/';
                 }
                 else if (this.cmd == 'nodeinfo') {
-                    this.fetchURL = '/_nodes?all=true';
+                    this.fetchURL = '/_nodes';
                 }
                 else if (this.cmd == 'nodestats') {
                     this.fetchURL = '/_nodes/stats?all=1';

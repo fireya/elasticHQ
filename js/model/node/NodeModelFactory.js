@@ -25,7 +25,7 @@ function NodeInfoModelFactory() {
                     return '/_nodes/' + nodeId + '?all=true';
                 }
                 else {
-                    return '/_nodes?all=true';
+                    return '/_nodes';
                 }
             };
             return model;

@@ -40,7 +40,7 @@ var RESTModel = Backbone.Model.extend({
             this.fetchURL = '/';
         }
         else if (this.cmd == 'nodeinfo') {
-            this.fetchURL = '/_cluster/nodes?all=true';
+            this.fetchURL = '/_cluster/nodes';
         }
         else if (this.cmd == 'nodestats') {
             this.fetchURL = '/_cluster/nodes/stats?all=true';
